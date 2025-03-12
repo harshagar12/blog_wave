@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogWave - Categories</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Blog<span>Wave</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html" class="active">Categories</a></li>
+                    <li><a href="create-post.html">Create Post</a></li>
+                    <li><a href="login.html" class="btn-login">Login</a></li>
+                    <li><a href="signup.html" class="btn-signup">Sign Up</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories-section">
+        <div class="container">
+            <h2 class="section-title">Categories</h2>
+            <div class="categories-grid">
+                <a href="categories.html?category=technology" class="category-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Technology</h3>
+                </a>
+                <a href="categories.html?category=lifestyle" class="category-card">
+                    <i class="fas fa-coffee"></i>
+                    <h3>Lifestyle</h3>
+                </a>
+                <a href="categories.html?category=travel" class="category-card">
+                    <i class="fas fa-plane"></i>
+                    <h3>Travel</h3>
+                </a>
+                <a href="categories.html?category=food" class="category-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food</h3>
+                </a>
+                <a href="categories.html?category=fitness" class="category-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Fitness</h3>
+                </a>
+                <a href="categories.html?category=science" class="category-card">
+                    <i class="fas fa-flask"></i>
+                    <h3>Science</h3>
+                </a>
+                <a href="categories.html?category=other" class="category-card">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>Other</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="posts-section">
+        <div class="container">
+            <h2 class="section-title">Posts in Category</h2>
+            <div id="category-posts-container" class="post-grid"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Blog<span>Wave</span></h2>
+                    <p>Share your stories with the world.</p>
+                </div>
+                <div class="footer-categories">
+                    <h3>Categories</h3></p>
+                    <ul>
+                        <li><a href="categories.html?category=technology">Technology</a></li>
+                        <li><a href="categories.html?category=lifestyle">Lifestyle</a></li>
+                        <li><a href="categories.html?category=travel">Travel</a></li>
+                        <li><a href="categories.html?category=food">Food</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BlogWave.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
